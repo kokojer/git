@@ -9,7 +9,7 @@ inputFirst.addEventListener('blur', () =>{
         sum = 0;
         p.textContent = new Date().getFullYear() - inputFirst.value;
         console.log();
-
+    console.log('4124');
 
         
     })
