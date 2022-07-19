@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/kokojer/git#readme",
   "devDependencies": {
-    "husky": "^8.0.1"
+    "husky": "^4.3.6"
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm run bra"
+      "pre-push": "npx branch-name-lint ./branchNameLint"
     }
   },
   "dependencies": {
