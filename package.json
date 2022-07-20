@@ -22,7 +22,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npx branch-name-lint ./branchNameLint"
+      "pre-push": "node ./branchNameLint.js"
     }
   },
   "dependencies": {
