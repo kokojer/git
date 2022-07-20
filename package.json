@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/kokojer/git#readme",
   "devDependencies": {
-    "husky": "^4.3.6"
+    "husky": "^4.3.8"
   },
   "husky": {
     "hooks": {
